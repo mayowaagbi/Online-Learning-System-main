@@ -4,7 +4,7 @@ session_start();
 $email=$_SESSION['email'];
 //delete feedback
 if(isset($_SESSION['key'])){
-if(@$_GET['fdid'] && $_SESSION['key']=='rajat85') {
+if(@$_GET['fdid']) {
 $id=@$_GET['fdid'];
 $result = mysqli_query($con,"DELETE FROM feedback WHERE id='$id' ") or die('Error');
 header("location:dash.php?q=3");
@@ -13,7 +13,7 @@ header("location:dash.php?q=3");
 
 //delete user
 if(isset($_SESSION['key'])){
-if(@$_GET['demail'] && $_SESSION['key']=='rajat85') {
+if(@$_GET['demail']) {
 $demail=@$_GET['demail'];
 $r1 = mysqli_query($con,"DELETE FROM rank WHERE email='$demail' ") or die('Error');
 $r2 = mysqli_query($con,"DELETE FROM history WHERE email='$demail' ") or die('Error');
@@ -23,7 +23,7 @@ header("location:dash.php?q=1");
 }
 //remove quiz
 if(isset($_SESSION['key'])){
-if(@$_GET['q']== 'rmquiz' && $_SESSION['key']=='rajat85') {
+if(@$_GET['q']== 'rmquiz') {
 $eid=@$_GET['eid'];
 $result = mysqli_query($con,"SELECT * FROM questions WHERE eid='$eid' ") or die('Error');
 while($row = mysqli_fetch_array($result)) {
@@ -41,7 +41,7 @@ header("location:dash.php?q=5");
 
 //add quiz
 if(isset($_SESSION['key'])){
-if(@$_GET['q']== 'addquiz' && $_SESSION['key']=='rajat85') {
+if(@$_GET['q']== 'addquiz') {
 $name = $_POST['name'];
 $name= ucwords(strtolower($name));
 $total = $_POST['total'];
@@ -59,7 +59,7 @@ header("location:dash.php?q=4&step=2&eid=$id&n=$total");
 
 //add question
 if(isset($_SESSION['key'])){
-if(@$_GET['q']== 'addqns' && $_SESSION['key']=='sunny7785068889') {
+if(@$_GET['q']== 'addqns' ) {
 $n=@$_GET['n'];
 $eid=@$_GET['eid'];
 $ch=@$_GET['ch'];
@@ -177,11 +177,11 @@ while($row=mysqli_fetch_array($q) )
 {
 $s=$row['score'];
 }
-$q=mysqli_query($con,"SELECT * FROM rank WHERE email='$email'" )or die('Error161');
+$q=mysqli_query($con,"SELECT * FROM `rank` WHERE email='$email'" )or die('Error161'); 
 $rowcount=mysqli_num_rows($q);
 if($rowcount == 0)
 {
-$q2=mysqli_query($con,"INSERT INTO rank VALUES('$email','$s',NOW())")or die('Error165');
+$q2=mysqli_query($con,"INSERT INTO `rank` VALUES('$email','$s',NOW())")or die('Error165');
 }
 else
 {
@@ -222,6 +222,5 @@ header("location:account.php?q=quiz&step=2&eid=$eid&n=1&t=$t");
 }
 
 ?>
-
 
 

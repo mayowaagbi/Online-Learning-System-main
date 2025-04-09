@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Navigus Adaptive Learning </title>
+<title>Online Learning system</title>
 <link  rel="stylesheet" href="css/bootstrap.min.css"/>
  <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/>    
  <link rel="stylesheet" href="css/main.css">
@@ -24,7 +24,7 @@
 <!--header start-->
 <div class="row header">
 <div class="col-lg-6">
-<span class="logo">Adaptive Learning Platform</span></div>
+<span class="logo">Online Learning System</span></div>
 <div class="col-md-2">
 </div>
 <div class="col-md-4">
@@ -141,7 +141,7 @@ You can send us your feedback through e-mail on the following e-mail id:<br />
 <!--Footer start-->
 <div class="row footer">
 <div class="col-md-3 box">
-<a href="https://www.facebook.com/rajatg62" target="_blank">About us</a>
+<a href="about.php" target="_blank">About us</a>
 </div>
 <div class="col-md-3 box">
 <a href="#" data-toggle="modal" data-target="#login">Teacher Login</a></div>
@@ -164,7 +164,7 @@ You can send us your feedback through e-mail on the following e-mail id:<br />
         <p>
 		<div class="row">
 		<div class="col-md-4">
-		<img src="image/rajat.jpeg" width=100 height=100 alt="Rajat Garg" class="img-rounded">
+		<img src="image/logo.png" width=100 height=100 alt="Rajat Garg" class="img-rounded">
      </div>
      <div class="col-md-5">
     <a href="https://www.facebook.com/rajatg62" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">OLS</a>

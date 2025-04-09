@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Navigus Adaptive Learning </title>
+<title>Online Learning system</title>
 <link  rel="stylesheet" href="css/bootstrap.min.css"/>
  <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/>    
  <link rel="stylesheet" href="css/main.css">
@@ -30,7 +30,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="header">
 <div class="row">
 <div class="col-lg-6">
-<span class="logo">Adaptive Learning Platform</span></div>
+<span class="logo">Online Learning System </span></div>
 <div class="col-md-2 col-md-offset-4">
 <a href="#" class="pull-right btn sub1" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>&nbsp;<span class="title1"><b>Sign In</b></span></a></div>
 <!--sign in modal start-->
@@ -174,7 +174,8 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 
 <footer class="row footer" style="height: 111px" >
 <div class="col-md-3 box" style="padding-top: 30px">
-<a href="https://drive.google.com/file/d/1qIXGVzSFjSQXQbYPTjS9X9bhRsOR3ePc/view?usp=sharing" style="font-size: 25px;" target="_blank">About us</a>
+<a href="about.php
+" style="font-size: 25px;" target="_blank">About us</a>
 </div>
 <div class="col-md-3 box" style="padding-top: 30px">
 <a href="#" data-toggle="modal" data-target="#login" style="font-size: 25px;">Teacher Login</a></div>
@@ -196,7 +197,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
         <p>
     <div class="row">
     <div class="col-md-4">
-     <img src="image/rajat.jpeg" width=100 height=100 alt="Rajat Garg" class="img-rounded">
+     <img src="image/logo.png" width=100 height=100 alt="Rajat Garg" class="img-rounded">
      </div>
      <div class="col-md-5">
     <a href="https://www.facebook.com/rajatg62" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook"> OLS</a>

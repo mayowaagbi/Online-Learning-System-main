@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Navigus Adaptive Learning</title>
+<title>Online Learning System</title>
 <link  rel="stylesheet" href="css/bootstrap.min.css"/>
  <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/>    
  <link rel="stylesheet" href="css/main.css">
@@ -60,7 +60,7 @@ echo '<span class="pull-right top title1" ><span class="log1"><span class="glyph
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" target="_blank" href="https://navigus.co/"><b>Navigus</b></a>
+     
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -222,7 +222,7 @@ echo'</table></div>';
 //ranking start
 if(@$_GET['q']== 3) 
 {
-$q=mysqli_query($con,"SELECT * FROM rank  ORDER BY score DESC " )or die('Error223');
+$q=mysqli_query($con,"SELECT * FROM `rank`  ORDER BY score DESC " )or die('Error223');
 echo  '<div class="panel title"><div class="table-responsive">
 <table class="table table-striped title1" >
 <tr style="color:red"><td><b>Rank</b></td><td><b>Name</b></td><td><b>Gender</b></td><td><b>College</b></td><td><b>Score</b></td></tr>';
@@ -250,7 +250,7 @@ echo '</table></div></div>';}
 <!--Footer start-->
 <div class="row footer">
 <div class="col-md-3 box">
-<a href="https://drive.google.com/file/d/1qIXGVzSFjSQXQbYPTjS9X9bhRsOR3ePc/view?usp=sharing" target="_blank">About us</a>
+<a href="about.php" target="_blank">About us</a>
 </div>
 <div class="col-md-3 box">
 <a href="#" data-toggle="modal" data-target="#login">Teacher Login</a></div>
@@ -272,7 +272,7 @@ echo '</table></div></div>';}
         <p>
 		<div class="row">
 		<div class="col-md-4">
-<img src="image/rajat.jpeg" width=100 height=100 alt="Rajat Garg" class="img-rounded">
+<img src="image/logo.png" width=100 height=100 alt="Rajat Garg" class="img-rounded">
      </div>
      <div class="col-md-5">
     <a href="" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Group 2</a>

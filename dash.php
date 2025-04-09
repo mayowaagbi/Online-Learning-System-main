@@ -35,7 +35,7 @@ $(function () {
 <div class="header">
 <div class="row">
 <div class="col-lg-6">
-<span class="logo">Adaptive Learning Platform</span></div>
+<span class="logo">Online Learning System</span></div>
 <?php
  include_once 'dbConnection.php';
 session_start();
