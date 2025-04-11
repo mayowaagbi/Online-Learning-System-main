@@ -68,7 +68,7 @@ $name = $_SESSION['name'];
                     
                     <div class="row">
                         <div class="col-md-6">
-                            <h3 style="color: #99cc32;"><span class="glyphicon glyphicon-education"></span> Our Mission</h3>
+                            <h3 style="color: rgb(36, 8, 199);"><span class="glyphicon glyphicon-education"></span> Our Mission</h3>
                             <p class="text-justify" style="font-size: 16px; line-height: 1.6;">
                                 We are committed to revolutionizing the way students learn through adaptive technology. 
                                 Our platform provides personalized learning experiences that adapt to each student's 
@@ -77,7 +77,7 @@ $name = $_SESSION['name'];
                         </div>
                         
                         <div class="col-md-6">
-                            <h3 style="color: #99cc32;"><span class="glyphicon glyphicon-star"></span> What We Offer</h3>
+                            <h3 style="color: rgb(36, 8, 199);"><span class="glyphicon glyphicon-star"></span> What We Offer</h3>
                             <ul class="list-group" style="margin-top: 20px;">
                                 <li class="list-group-item">Adaptive quizzes that adjust to your skill level</li>
                                 <li class="list-group-item">Comprehensive performance tracking</li>
@@ -90,7 +90,7 @@ $name = $_SESSION['name'];
 
                     <div class="row" style="margin-top: 40px;">
                         <div class="col-md-12">
-                            <h3 style="color: #99cc32;"><span class="glyphicon glyphicon-wrench"></span> Key Features</h3>
+                            <h3 style="color: rgb(36, 8, 199);"><span class="glyphicon glyphicon-wrench"></span> Key Features</h3>
                             <div class="row">
                                 <div class="col-md-4 feature-card">
                                     <div class="panel panel-default">

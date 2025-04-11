@@ -211,7 +211,7 @@ while($row=mysqli_fetch_array($q) )
 $s=$row['score'];
 }
 $q=mysqli_query($con,"DELETE FROM `history` WHERE eid='$eid' AND email='$email' " )or die('Error184');
-$q=mysqli_query($con,"SELECT * FROM rank WHERE email='$email'" )or die('Error161');
+$q=mysqli_query($con,"SELECT * FROM `rank` WHERE email='$email'" )or die('Error161');
 while($row=mysqli_fetch_array($q) )
 {
 $sun=$row['score'];

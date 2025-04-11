@@ -183,7 +183,8 @@ echo '</table></div></div>';
 
 <!--feedback start-->
 <?php if(@$_GET['q']==3) {
-$result = mysqli_query($con,"SELECT * FROM `feedback` ORDER BY `feedback`.`date` DESC") or die('Error');
+$result = mysqli_query($con,"SELECT * FROM `feedback`") or die(mysqli_error($con));
+
 echo  '<div class="panel"><div class="table-responsive"><table class="table table-striped title1">
 <tr><td><b>S.N.</b></td><td><b>Subject</b></td><td><b>Email</b></td><td><b>Date</b></td><td><b>Time</b></td><td><b>By</b></td><td></td><td></td></tr>';
 $c=1;
