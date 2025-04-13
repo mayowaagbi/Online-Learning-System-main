@@ -10,20 +10,29 @@ a {
 }
 /* Header */
 .header {
+  margin-top: 24px;
   background-color: #1e40af;
   color: white;
   padding: 15px 0;
+  margin-bottom: 12px;
 }
 
 .logo {
+  margin-left: 30px;
   font-size: 24px;
   font-weight: 600;
   color: white;
 }
 
+/* User name color */
+.log {
+  color: white; /* Sets the text color to white */
+}
+
 /* Navigation Menu */
 .navbar-default {
   background-color: #1e40af;
+  background-image: none;
   border: none;
   border-radius: 0;
   margin-bottom: 0;
@@ -129,12 +138,14 @@ a {
   border-color: #1e40af;
   box-shadow: 0 0 5px rgba(30, 64, 175, 0.5);
 }
-
+form{
+  margin-bottom: 2px;
+}
 /* Footer */
 .footer {
   background-color: #1e40af;
   color: white;
-  padding: 20px 0;
+  padding: 2px 0;
   text-align: center;
 }
 
